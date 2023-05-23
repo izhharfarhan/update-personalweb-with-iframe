@@ -1,0 +1,216 @@
+@font-face {
+    font-family: 'DoubleFeature';
+    src: url(font/DoubleFeature-KvAe.ttf);
+}
+
+@font-face {
+    font-family: 'AnotherDanger';
+    src: url(font/Another\ Danger\ -\ Demo.otf);
+}
+
+@font-face {
+    font-family: 'ZombiesReborn';
+    src: url(font/ZOMBIES\ REBORN.ttf);
+}
+
+@font-face {
+    font-family: 'FridayTerror';
+    src: url(font/Friday\ Terror.ttf);
+}
+
+@font-face {
+    font-family: 'MysticGate';
+    src: url(font/MysticGate-0WnMP.ttf);
+}
+
+* {
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Open Sans', sans-serif;
+    background-color: #1c1e21;
+}
+
+.wrapper {
+    width: 1100px;
+    margin: auto;
+    position: relative;
+}
+
+.logo a {
+    font-size: 100px;
+    font-weight: 200;
+    float: left;
+    font-family: 'ZombiesReborn';
+    color: #C31207;
+    margin-top: -7px;
+}
+
+.menu {
+    float: right;
+}
+
+nav {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    line-height: 80px;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    background-color: black;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    color: aliceblue;
+    font-weight: bold;
+    text-align: center;
+    padding: 0px 16px 0px 16px;
+    text-decoration: none;
+    font-family: 'MysticGate';
+}
+
+nav ul li a:link {
+    color: aliceblue;
+}
+
+nav ul li a:hover {
+    color: #C31207;
+    font-family: 'FridayTerror';
+    font-size: 18px;
+}
+
+nav ul li a:active {
+    color: goldenrod;
+}
+
+#welcome {
+    font-family: 'FridayTerror';
+    color:#C31207;
+    font-size: 45px;
+    text-align: center;
+    font-weight: 200;
+    font-weight: bold;
+    text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
+}
+
+#welcome:hover {
+    color: black;
+    text-shadow: -1px -1px 0 aliceblue, 1px -1px 0 aliceblue, -1px 1px 0 aliceblue, 1px 1px 0 aliceblue;
+}
+
+.wrapper2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 75vh;
+}
+
+.kususwelcome {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img1 {
+    margin: -20px auto 0;
+    margin-left: 50px;
+    margin-bottom: 10px;
+}
+
+.deskripsi {
+    color: aliceblue;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    margin: -20px auto 0;
+}
+
+#me {
+    color: #C31207;
+    font-family: 'FridayTerror';
+    margin-bottom: 20px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 40px;
+    text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
+}
+
+#me:hover {
+    color: black;
+    text-shadow: -1px -1px 0 aliceblue, 1px -1px 0 aliceblue, -1px 1px 0 aliceblue, 1px 1px 0 aliceblue;
+}
+
+.wrapper3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.kususaboutme {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.desme {
+    color: aliceblue;
+    text-align: justify;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: 20px;
+}
+
+.skull {
+    float: left;
+}
+
+.wrapper4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.kususstatus {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#mystatus {
+    color: #C31207;
+    font-family: 'FridayTerror';
+    margin-bottom: 20px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 40px;
+    text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
+}
+
+#mystatus:hover {
+    color: black;
+    text-shadow: -1px -1px 0 aliceblue, 1px -1px 0 aliceblue, -1px 1px 0 aliceblue, 1px 1px 0 aliceblue;
+}
+
+iframe {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
